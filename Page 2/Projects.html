@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>My Projects</title>
+</head>
+<body>
+    <div class = "container-fluid">
+        <!--  Start section for nav bar -->
+        <div class = "nav-bar">
+            <nav>
+                <ul class = "menu"  id="MyMenu">
+                    <li><a href = "../index.html" class="disa">Introduction</a></li>
+                    <li><a href = "../Page 1/About_me.html" class="disa">About Me</a></li>
+                    <li><a href = "Projects.html" class="disa">My Projects</a></li>
+                    <li><a href = "../Page 3/Resume.html" class="disa">My Skills</a></li>
+                    <li><a href = "../Page 4/Contact.html" class="disa">Contact Me</a></li>
+                    <li><a href= "javascript:void(0);" style="font-size:20px;" class="icon" onclick="burger()">&#9776;</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End of section for nav bar-->
+        <!-- start of my latest -->
+        <div class = "latest" id = "latest">
+            <h2 style = "text-align: center;">My Latest Projects</h2>
+            <div class = "past-column  flex-direction">
+                <div class="past-cards"><a href = "https://tic-tac-toe-by-folarin.netlify.app/" target="_blank">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>This is the first page I made using React.js. It's a simple game that I believe most people have played when they were younger, tic-tac-toe or X & O's. It holds the abiilty to each step of the game giving the users the option to see each move step by step or in what ever order they want.</p>
+                    <p>Type | <span>Website</span></p>
+                    <img src = "../img/Xs-&-Os.png" alt = "X's and O's image" style = "max-width: 100%;">
+                    </a>
+                </div>
+                <div class="past-cards"><a href = "https://github.com/FemiG/CMPINF-Final-Project" target="_blank">
+                    <h3>Analysis on Neighbourhood Quality</h3>
+                    <p>This project was undertaken by a team consisting of me and two others, and we worked to determine which neighbourhood in the city of Pittsburgh was the best to live in. We determined this through air quality data and police incident reports. All the data used was from the city's publicly available database</p>
+                    <p>Type | <span>Data Analysis</span></p>
+                    <img src = "../img/Data anaylsis.jpg" alt = "An image of data page" style = "max-width: 100%;">
+                    </a>
+                </div>
+                <div class="past-cards"><a href = "https://folarins-feedback.netlify.app/" target="_blank">
+                    <h3>Feedback Page</h3>
+                    <p>This is a page I made using a mixture of API and MySQL where the user can use HTTP verbs to send, receive, edit, and delete entries in a MySQL database</p>
+                    <p>Type | <span>Website</span></p>
+                    <img src = "../img/Feedback page.png" alt = "Feedback page" style = "max-width: 100%;">
+                    </a>
+                </div>
+                <div class="past-cards"><a href = "https://folarin-joke-generator.netlify.app/" target="_blank">
+                    <h3>Joke Generator</h3>
+                    <p>This is a page I made using an API where the user can use HTTP verbs to send rather bad jokes they found on the internet or ones they came up on their own or they could receive, edit, and delete existing ones</p>
+                    <p>Type | <span>Website</span></p>
+                    <img src = "../img/Joke Generator.png" alt = "Joke Generator" style = "max-width: 100%;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End of my latest -->
+    </div>
+    <script src="./script/hamburger.js"></script>
+</body>
+</html>
