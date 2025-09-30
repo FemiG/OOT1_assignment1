@@ -11,7 +11,7 @@ Includes visuals and JavaScript functionality for interactive elements.
 ### About Me Page (Page 1/About_me.html)
 
 Contains information about my background, interests, and experience.
-Uses semantic tags like <section> and <p> to organize content.
+Uses semantic tags like <'section> and <'p> to organize content.
 
 ### Projects Page (Page 2/Projects.html)
 
@@ -30,14 +30,13 @@ Encourages networking and feedback.
 
 ## HTML Elements Used
 <img src="./img/Screenshot 2025-09-30 135745.png">
-<header>, <nav> – for navigation menus.
-<section>, <article> – to structure page content.
-<h1>–<h3> – for headings.
-<p> – for paragraphs.
-<ul>, <li> – for lists.
-<a> – for internal and external links.
-<img> – for project images and design visuals.
-<form>, <input>, <textarea>, <button> – for the contact form.
+<'header>, <'nav> – for navigation menus.
+<'section>, <'article> – to structure page content.
+<'h1>–<'h3> – for headings.
+<'p> – for paragraphs.
+<'ul>, <'li> – for lists.
+<'a> – for internal and external links.
+<'img> – for project images and design visuals.
 
 ## CSS Styles Applied
 <img src="./img/Screenshot 2025-09-30 135157.png">
